@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React",
+  "keywords": [],
+  "homepage": "https://github.com/beardboy03/React#readme",
+  "bugs": {
+    "url": "https://github.com/beardboy03/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beardboy03/React.git"
+  },
+  "license": "ISC",
+  "author": "Sunny",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserList": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
