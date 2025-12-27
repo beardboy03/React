@@ -9,7 +9,7 @@ import ReactDOM from "react-dom/client"
     <h1></h1>
     </div>
     <div>
-*/
+
 // const heading = React.createElement(
 //   "h1",
 //   { id: "heading", xyz: "abc" },
@@ -22,4 +22,8 @@ const heading = React.createElement(
   },"Hello Brother");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log(heading);
+root.render(heading);
+*/
+const heading=React.createElement("h1",{id:"heading"},"Hello World!");
+const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
